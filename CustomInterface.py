@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 
+# select camera hardware default webcam is 0
 cap = cv2.VideoCapture(1)
 
 color = (0,255,0)
